@@ -9,7 +9,7 @@ from telegram.ext import (
 )
 
 # Укажи chat_id администратора
-ADMIN_CHAT_ID = 753557718  # Замени на реальный chat_id
+ADMIN_CHAT_ID = chat_id  # Замени на реальный chat_id
 
 # Данные для бота
 PRICES = {
@@ -169,7 +169,7 @@ async def handle_photo(update: Update, context: ContextTypes.DEFAULT_TYPE):
 # Основная функция
 def main():
     # Вставь сюда свой токен
-    token = '7652262753:AAHgjxOevrhGEHzIMQyae6uIzxQQ9xx4u2k'
+    token = 'BOT_TOKEN'
     application = ApplicationBuilder().token(token).build()
 
     # Регистрация обработчиков
