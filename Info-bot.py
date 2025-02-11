@@ -9,7 +9,7 @@ from telegram.ext import (
 )
 
 # Укажи chat_id администратора
-ADMIN_CHAT_ID = chat_id  # Замени на реальный chat_id
+ADMIN_CHAT_ID = CHAT_ID  # Замени на реальный chat_id
 
 # Данные для бота
 PRICES = {
